@@ -1,0 +1,14 @@
+{
+  "docs/index.html": "93a0ae0bf3f5245e97f9476b5c6d47e710cba98db55ad48e1d9f2bf6de908062",
+  "docs/methodology.html": "8e978ff61150928b3785506def9d912f12f710c179e6ca2bf823663631bd1118",
+  "docs/assets/app.js": "ad91e45fb9bda7970418b533635b5ce9e9e2f6e453d5249a31f6f39430d33cde",
+  "docs/assets/calculator.js": "de10af62dcfeb862156f8b60f06c6384682eba32e56c138024fef06d342ed6f5",
+  "docs/assets/release-gate.js": "1cffc1f065f466f80a0618c93904c963094ba551fe4383bf84018324d0ecb16f",
+  "docs/assets/styles.css": "adc1df1ef391b25566f110298d1fdf34a47abef70a6ad245dc6c371ff3494e3b",
+  "data/benchmarks.json": "75a6e0d2ff068e7fbef449ff4f123da834fa4795a65ba11d5488de95d51ae9ec",
+  "data/benchmarks.csv": "850318b92b33341a6c59b2298707a9060dbf03458cf5f412ed956983048fbe68",
+  "data/methodology.json": "d6bfa8233b280e18324d9433b5ea056a3fe53d6996477ae5c1212c9cc8ab6724",
+  "data/claims.json": "f47a482c6a513da58a76a255ec09d6cc45b64f9f08c8905af1c1a7ec841540ec",
+  "data/sources.json": "2aab1b021f8974dc657cc61edeaef856d211a6d7a8da7073f5731cfab2d30f7d",
+  "test/calculator.test.js": "c8700799cfd257a50c34bafa76ad315c739567775e8869d7f3185a3cd13574e8"
+}

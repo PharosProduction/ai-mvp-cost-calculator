@@ -1,0 +1,1 @@
+{"targets": [{"target": "audits/2026-10-06-release/rendered-index.html", "findings": [], "checks": ["SD01", "SD02", "SD03", "SD04", "SF01", "SF02", "SS01", "SS02", "SS03"]}, {"target": "audits/2026-10-06-release/rendered-methodology.html", "findings": [], "checks": ["SD01", "SD02", "SD03", "SD04", "SF01", "SF02", "SS01", "SS02", "SS03"]}], "exit": 0}

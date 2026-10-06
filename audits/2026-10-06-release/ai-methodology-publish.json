@@ -1,0 +1,175 @@
+{
+  "files": [
+    {
+      "file": "docs/methodology.html",
+      "findings": [
+        {
+          "id": "AT01",
+          "severity": "flag",
+          "value": 3.82,
+          "threshold": 2.5,
+          "line": 52,
+          "excerpt": "research and its update date identify the sample window, inclusions and limitat\u2026"
+        },
+        {
+          "id": "AT01",
+          "severity": "flag",
+          "value": 3.82,
+          "threshold": 2.5,
+          "line": 78,
+          "excerpt": "ain assumptions, formula IDs, claim IDs, source version and open-ended range fl\u2026"
+        },
+        {
+          "id": "AT01",
+          "severity": "flag",
+          "value": 3.82,
+          "threshold": 2.5,
+          "line": null,
+          "excerpt": "Open upper bands remain open in source, itemized and cross-check results. The d\u2026"
+        },
+        {
+          "id": "AT01",
+          "severity": "flag",
+          "value": 3.82,
+          "threshold": 2.5,
+          "line": null,
+          "excerpt": "w bound to the exact dataset, formula, claim and source versions. Codex com"
+        },
+        {
+          "id": "AT01",
+          "severity": "flag",
+          "value": 3.82,
+          "threshold": 2.5,
+          "line": null,
+          "excerpt": "4Rechecked all 21 cost bands. Clarified assumptions, timeline scope and source-\u2026"
+        },
+        {
+          "id": "AT08",
+          "severity": "flag",
+          "value": 0.9,
+          "threshold": 0.5,
+          "line": null,
+          "excerpt": "9 headings / 10 paragraphs"
+        },
+        {
+          "id": "AT14",
+          "severity": "flag",
+          "value": 3,
+          "threshold": 3,
+          "line": null,
+          "excerpt": "sentences starting with 'the'"
+        },
+        {
+          "id": "AT14",
+          "severity": "flag",
+          "value": 3,
+          "threshold": 3,
+          "line": null,
+          "excerpt": "sentences starting with 'the'"
+        },
+        {
+          "id": "AT14",
+          "severity": "flag",
+          "value": 3,
+          "threshold": 3,
+          "line": null,
+          "excerpt": "sentences starting with 'claim'"
+        },
+        {
+          "id": "AT14",
+          "severity": "flag",
+          "value": 3,
+          "threshold": 3,
+          "line": null,
+          "excerpt": "paragraphs starting with 'the'"
+        },
+        {
+          "id": "AT23",
+          "severity": "flag",
+          "value": 0.179,
+          "threshold": 0.3,
+          "line": null,
+          "excerpt": "3 short of 10 paragraphs, rest CV=0.179"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "2026",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 2026"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "2026",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 2026"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "6",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 6"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "6",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 6"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "https://github.com/PharosProduction/ai-mvp-cost-calculator/blob/main/audits/2026-10-06-release/technical-review.md",
+          "threshold": null,
+          "line": null,
+          "excerpt": "url: https://github.com/PharosProduction/ai-mvp-cost-calculator/blob/main/audits/2026-10-06-release/technical-review.md"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "https://github.com/PharosProduction/ai-mvp-cost-calculator/issues",
+          "threshold": null,
+          "line": null,
+          "excerpt": "url: https://github.com/PharosProduction/ai-mvp-cost-calculator/issues"
+        }
+      ],
+      "metrics": {
+        "section_closers": 0,
+        "IN01": {
+          "ttr": 0.4862,
+          "lexical_density": 0.763,
+          "hapax_pct": 0.695
+        },
+        "IN02": {
+          "digressions": 1
+        },
+        "IN03": {
+          "rhetorical_questions": 0
+        },
+        "IN04": {
+          "cliche_tier2_per_500": 0.0
+        },
+        "IN05": {
+          "contraction_count": 0,
+          "contraction_per_500": 0.0
+        },
+        "IN06": {
+          "passive_count": 2,
+          "passive_per_500": 1.53
+        },
+        "word_count": 654,
+        "skipped": [],
+        "skip_reasons": {}
+      },
+      "exit": 1
+    }
+  ],
+  "exit": 1
+}

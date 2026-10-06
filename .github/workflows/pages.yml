@@ -1,0 +1,51 @@
+name: Deploy reviewed site to Pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --test
+      - run: npm run check:sources
+      - name: Evaluate review, claim, source, and version scope
+        run: >-
+          node --input-type=module -e
+          "import review from './data/review.json' with {type:'json'};
+          import claims from './data/claims.json' with {type:'json'};
+          import sources from './data/sources.json' with {type:'json'};
+          import methodology from './data/methodology.json' with {type:'json'};
+          import benchmarks from './data/benchmarks.json' with {type:'json'};
+          import {evaluateReleaseGate} from './docs/assets/release-gate.js';
+          const gate=evaluateReleaseGate({review,claims,sources,methodology,benchmarks});
+          console.log(gate);
+          if(!gate.publishable) process.exit(1);"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: verify
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy reviewed artifact
+        id: deployment
+        uses: actions/deploy-pages@v4

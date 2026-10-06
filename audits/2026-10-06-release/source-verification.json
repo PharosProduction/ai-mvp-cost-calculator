@@ -1,0 +1,18 @@
+{
+  "url": "https://pharosproduction.com/insights/engineering/state-of-ai-development-costs-2026/",
+  "checkedAt": "2026-10-06T05:22:15.233427+00:00",
+  "capture": "rendered-browser",
+  "sha256": "4611f35801836a9e8e4058ff197f01963392b03281578ffd77b3e058ab05ff0b",
+  "bytes": 385852,
+  "visiblePublished": "2026-04-13",
+  "visibleModified": "2026-10-04",
+  "verifiedRows": 7,
+  "verifiedLifecycleBands": 21,
+  "projectLevelDataPublic": false,
+  "notes": [
+    "25 is the source methodology count; summary uses 25+. No independent project-level audit.",
+    "The article reviewer is not the calculator reviewer.",
+    "Vendor pricing claims excluded.",
+    "Python urllib received HTTP 403; ordinary browser access succeeded."
+  ]
+}

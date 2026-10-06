@@ -1,0 +1,303 @@
+{
+  "files": [
+    {
+      "file": "docs/methodology.html",
+      "findings": [
+        {
+          "id": "AT01",
+          "severity": "flag",
+          "value": 3.94,
+          "threshold": 2.5,
+          "line": 52,
+          "excerpt": "research and its update date identify the sample window, inclusions and limitat\u2026"
+        },
+        {
+          "id": "AT01",
+          "severity": "flag",
+          "value": 3.94,
+          "threshold": 2.5,
+          "line": 78,
+          "excerpt": "ain assumptions, formula IDs, claim IDs, source version and open-ended range fl\u2026"
+        },
+        {
+          "id": "AT01",
+          "severity": "flag",
+          "value": 3.94,
+          "threshold": 2.5,
+          "line": null,
+          "excerpt": "Open upper bands remain open in source, itemized and cross-check results. The d\u2026"
+        },
+        {
+          "id": "AT01",
+          "severity": "flag",
+          "value": 3.94,
+          "threshold": 2.5,
+          "line": null,
+          "excerpt": "w bound to the exact dataset, formula, claim and source versions. Technical"
+        },
+        {
+          "id": "AT01",
+          "severity": "flag",
+          "value": 3.94,
+          "threshold": 2.5,
+          "line": null,
+          "excerpt": "4Rechecked all 21 cost bands; clarified assumptions, timeline scope and source-\u2026"
+        },
+        {
+          "id": "AT08",
+          "severity": "flag",
+          "value": 0.9,
+          "threshold": 0.5,
+          "line": null,
+          "excerpt": "9 headings / 10 paragraphs"
+        },
+        {
+          "id": "AT14",
+          "severity": "flag",
+          "value": 3,
+          "threshold": 3,
+          "line": null,
+          "excerpt": "sentences starting with 'the'"
+        },
+        {
+          "id": "AT14",
+          "severity": "flag",
+          "value": 3,
+          "threshold": 3,
+          "line": null,
+          "excerpt": "sentences starting with 'the'"
+        },
+        {
+          "id": "AT14",
+          "severity": "flag",
+          "value": 3,
+          "threshold": 3,
+          "line": null,
+          "excerpt": "sentences starting with 'claim'"
+        },
+        {
+          "id": "AT14",
+          "severity": "flag",
+          "value": 3,
+          "threshold": 3,
+          "line": null,
+          "excerpt": "paragraphs starting with 'the'"
+        },
+        {
+          "id": "AT21",
+          "severity": "flag",
+          "value": 4.72,
+          "threshold": 2,
+          "line": 53,
+          "excerpt": "gainst private project records; the difference remains a sour"
+        },
+        {
+          "id": "AT21",
+          "severity": "flag",
+          "value": 4.72,
+          "threshold": 2,
+          "line": null,
+          "excerpt": "aims used by formula version 1; observation does not establis"
+        },
+        {
+          "id": "AT21",
+          "severity": "flag",
+          "value": 4.72,
+          "threshold": 2,
+          "line": null,
+          "excerpt": "Technical reviewerPending; no person is represented as h"
+        },
+        {
+          "id": "AT21",
+          "severity": "flag",
+          "value": 4.72,
+          "threshold": 2,
+          "line": null,
+          "excerpt": "Data summary licenseCC BY 4.0; source claims retain their na"
+        },
+        {
+          "id": "AT21",
+          "severity": "flag",
+          "value": 4.72,
+          "threshold": 2,
+          "line": null,
+          "excerpt": "October 6, 2026Formula 1.0.0; source 2026-10-04Rechecked al"
+        },
+        {
+          "id": "AT21",
+          "severity": "flag",
+          "value": 4.72,
+          "threshold": 2,
+          "line": null,
+          "excerpt": "-04Rechecked all 21 cost bands; clarified assumptions, timeli"
+        },
+        {
+          "id": "AT23",
+          "severity": "flag",
+          "value": 0.179,
+          "threshold": 0.3,
+          "line": null,
+          "excerpt": "3 short of 10 paragraphs, rest CV=0.179"
+        },
+        {
+          "id": "PR01",
+          "severity": "fail",
+          "value": "14",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 14"
+        },
+        {
+          "id": "PR01",
+          "severity": "fail",
+          "value": "14",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 14"
+        },
+        {
+          "id": "PR01",
+          "severity": "fail",
+          "value": "8",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 8"
+        },
+        {
+          "id": "PR01",
+          "severity": "fail",
+          "value": "8",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 8"
+        },
+        {
+          "id": "PR01",
+          "severity": "fail",
+          "value": "https://pharosproduction.com/insights/engineering/state-of-ai-development-costs-2026/",
+          "threshold": null,
+          "line": null,
+          "excerpt": "url: https://pharosproduction.com/insights/engineering/state-of-ai-development-costs-2026/"
+        },
+        {
+          "id": "PR01",
+          "severity": "fail",
+          "value": "https://pharosproduction.github.io/ai-mvp-cost-calculator/methodology.html#article",
+          "threshold": null,
+          "line": null,
+          "excerpt": "url: https://pharosproduction.github.io/ai-mvp-cost-calculator/methodology.html#article"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "10",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 10"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "10",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 10"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "10",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 10"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "2026",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 2026"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "21",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 21"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "4.0",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 4.0"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "6",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 6"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "6",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 6"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "6",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 6"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "https://pharosproduction.github.io/ai-mvp-cost-calculator/methodology.html#page",
+          "threshold": null,
+          "line": null,
+          "excerpt": "url: https://pharosproduction.github.io/ai-mvp-cost-calculator/methodology.html#page"
+        }
+      ],
+      "metrics": {
+        "section_closers": 0,
+        "IN01": {
+          "ttr": 0.4992,
+          "lexical_density": 0.7654,
+          "hapax_pct": 0.6909
+        },
+        "IN02": {
+          "digressions": 0
+        },
+        "IN03": {
+          "rhetorical_questions": 0
+        },
+        "IN04": {
+          "cliche_tier2_per_500": 0.0
+        },
+        "IN05": {
+          "contraction_count": 0,
+          "contraction_per_500": 0.0
+        },
+        "IN06": {
+          "passive_count": 3,
+          "passive_per_500": 2.36
+        },
+        "word_count": 635,
+        "skipped": [],
+        "skip_reasons": {}
+      },
+      "exit": 2
+    }
+  ],
+  "exit": 2
+}

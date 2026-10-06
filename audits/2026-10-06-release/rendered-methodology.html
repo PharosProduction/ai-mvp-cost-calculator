@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>25-Project AI Cost Method | Pharos Production</title>
+  <meta name="description" content="Hidden cost is modeled as 28-42% of first-year total spend. Inspect open-band handling, source conflict, exclusions, claim provenance and review scope.">
+  <link rel="canonical" href="https://pharosproduction.github.io/ai-mvp-cost-calculator/methodology.html">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://pharosproduction.com/#organization","name":"Pharos Production","url":"https://pharosproduction.com"},{"@type":"WebPage","@id":"https://pharosproduction.github.io/ai-mvp-cost-calculator/methodology.html#page","url":"https://pharosproduction.github.io/ai-mvp-cost-calculator/methodology.html","name":"25-Project AI Cost Method and TCO Formulas","description":"Dataset scope, formula definitions, provenance, exclusions and release controls for the AI MVP cost calculator.","dateModified":"2026-10-06","version":"1.0.0","publisher":{"@id":"https://pharosproduction.com/#organization"},"isPartOf":{"@id":"https://pharosproduction.github.io/ai-mvp-cost-calculator/#page"},"citation":"https://pharosproduction.com/insights/engineering/state-of-ai-development-costs-2026/","about":["AI MVP cost","total cost of ownership","benchmark methodology","cost provenance"]}]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to methodology</a>
+  <header class="site-header">
+    <a class="wordmark" href="./">AI COST / 2026</a>
+    <nav aria-label="Page"><ul><li><a href="./">Calculator</a></li><li><a href="#formula">Formula</a></li><li><a href="#claims">Claims</a></li></ul></nav>
+  </header>
+  <main class="page" id="main-content">
+    <article>
+      <header class="hero">
+        <p class="eyebrow">Methodology · Version 1.0.0</p>
+        <h1>How the 25-project AI cost ranges are calculated</h1>
+        <p class="lede">The calculator transcribes delivered-project bands, keeps user assumptions separate and exposes two formulas with different jobs. It does not fit a predictive model, infer a market average or estimate unknown scope.</p>
+        <dl class="fact-pack"><div><dt>Source methodology</dt><dd>25 reported projects</dd></div><div><dt>Window</dt><dd>Jan 2023-Mar 2026</dd></div><div><dt>Currency</dt><dd>USD</dd></div><div><dt>Review</dt><dd>Pending</dd></div></dl>
+      </header>
+
+      <section id="dataset">
+        <h2>Dataset scope and normalization</h2>
+        <p>The source describes a single-provider delivery sample with client details anonymized as required. It reports one count per project, costs in USD and timelines from kickoff to first production deployment. It excludes client-side infrastructure and third-party licenses contracted directly by a client. This download contains aggregate bands, not the underlying project records.</p>
+        <p>The source does not publish project-level records or within-band distributions. The tool therefore cannot calculate a confidence interval, establish a causal market benchmark or predict an individual proposal. Its output is a planning aid tied to the stated sample.</p>
+      </section>
+
+      <section id="formula">
+        <h2>Two formulas, two distinct jobs</h2>
+        <div class="formula-grid">
+          <article class="formula-card">
+            <h3>Itemized selected-horizon TCO</h3>
+            <p><code>build + one-time extras + monthly run rate × horizon</code></p>
+            <p>The source band or a known build budget supplies build cost. Every extra is a user assumption and must exclude anything already included in the build cost. Changing the horizon changes only this worksheet.</p>
+          </article>
+          <article class="formula-card">
+            <h3>First-year hidden-share cross-check</h3>
+            <p><code>build / (1 − share)</code>, evaluated at 28% and 42%.</p>
+            <p>The source defines the percentage as a share of first-year total spend. The cross-check has no base value and ignores the selected worksheet horizon. The calculator never adds it to the itemized result.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="provenance">
+        <h2>Claim provenance and source conflict</h2>
+        <p>Pharos Production provides the published AI development cost bands used to scope this worksheet. The <a href="./#research-source">source research and its update date</a> identify the sample window, inclusions and limitations. The source registry distinguishes this first-party evidence from editorial guidance.</p>
+        <p>The source uses the 25+ label in summary copy but specifies 25 in its methodology and analysis passages. This tool uses the stated methodology count of 25. Neither label has been checked against private project records. The difference remains a source limitation.</p>
+      </section>
+
+      <section id="claims">
+        <h2>Claim-to-source ledger</h2>
+        <div class="scroll">
+          <table id="claim-ledger">
+            <caption>Source claims used by formula version 1. Observation does not establish market representativeness.</caption>
+            <thead><tr><th>ID</th><th>Claim</th><th>Status</th><th>Source</th></tr></thead>
+            <tbody>
+              <tr><td>CLAIM-SAMPLE-25</td><td>The source methodology reports 25 projects</td><td>Observed</td><td>SOURCE-PHAROS-AI-COST-2026</td></tr>
+              <tr><td>CLAIM-MEDIAN-42K</td><td>$42,000 sample median</td><td>Observed</td><td>SOURCE-PHAROS-AI-COST-2026</td></tr>
+              <tr><td>CLAIM-P90-180K</td><td>$180,000 sample 90th percentile</td><td>Observed</td><td>SOURCE-PHAROS-AI-COST-2026</td></tr>
+              <tr><td>CLAIM-HIDDEN-28-42</td><td>Hidden cost is 28-42% of first-year total</td><td>Observed</td><td>SOURCE-PHAROS-AI-COST-2026</td></tr>
+              <tr><td>CLAIM-BENCHMARK-TABLE</td><td>Seven use-case bands and timelines</td><td>Verified transcription</td><td>SOURCE-PHAROS-AI-COST-2026</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="controls">
+        <h2>Reproducibility and release controls</h2>
+        <ul>
+          <li>Canonical registries live under <code>data/</code> and are byte-mirrored under <code>docs/data/</code>.</li>
+          <li>The runtime loads the published benchmark and formula registries instead of duplicating cost constants in JavaScript.</li>
+          <li>JSON and CSV exports retain assumptions, formula IDs, claim IDs, source version and open-ended range flags.</li>
+          <li>Qualitative uncertainty changes warnings only.</li>
+          <li>Open upper bands remain open in source, itemized and cross-check results.</li>
+          <li>The deployment workflow evaluates a named, timestamped review bound to the exact dataset, formula, claim and source versions.</li>
+        </ul>
+        <aside class="note">Technical review remains pending. The release gate returns <code>REVIEW_NOT_APPROVED</code>, and deployment cannot proceed.</aside>
+      </section>
+
+      <section id="history">
+        <h2>Ownership, disclosure and update history</h2>
+        <dl>
+          <dt>Publisher and owner</dt><dd>Pharos Production</dd>
+          <dt>Technical reviewer</dt><dd>Pending. No person is represented as having approved this version</dd>
+          <dt>AI assistance</dt><dd>AI assisted implementation and copy drafting. Numeric claims are bound to the source and claim registries.</dd>
+          <dt>Correction path</dt><dd>Release adds the public repository issue URL after review and repository creation.</dd>
+          <dt>Data summary license</dt><dd>CC BY 4.0. Source claims retain their named attribution</dd>
+          <dt>Calculation code license</dt><dd>MIT</dd>
+        </dl>
+        <div class="scroll">
+          <table>
+            <caption>Material methodology changes.</caption>
+            <thead><tr><th>Date</th><th>Version</th><th>Change</th></tr></thead>
+            <tbody><tr><td><time datetime="2026-08-14">August 14, 2026</time></td><td>1.0.0</td><td>Initial local, review-pending implementation.</td></tr><tr><td><time datetime="2026-10-06">October 6, 2026</time></td><td>Formula 1.0.0; source 2026-10-04</td><td>Rechecked all 21 cost bands. Clarified assumptions, timeline scope and source-count uncertainty. Arithmetic unchanged.</td></tr></tbody>
+          </table>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="site-footer"><p><a href="./">Return to calculator</a> · Formula v1.0.0 · Dataset v1.0.0</p></footer>
+
+
+</body><div id="codex-browser-sidebar-comments-root" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647;"></div></html>

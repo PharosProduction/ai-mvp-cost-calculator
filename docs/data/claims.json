@@ -1,0 +1,7 @@
+[
+  {"id":"CLAIM-SAMPLE-25","text":"The methodology aggregates exactly 25 projects.","v1Status":"OBSERVED","sourceId":"SOURCE-PHAROS-AI-COST-2026"},
+  {"id":"CLAIM-MEDIAN-42K","text":"The source reports a $42,000 sample median for AI MVPs.","v1Status":"OBSERVED","sourceId":"SOURCE-PHAROS-AI-COST-2026"},
+  {"id":"CLAIM-P90-180K","text":"The source reports a $180,000 90th percentile within its sample.","v1Status":"OBSERVED","sourceId":"SOURCE-PHAROS-AI-COST-2026"},
+  {"id":"CLAIM-HIDDEN-28-42","text":"The source reports hidden costs as 28–42% of first-year TCO.","v1Status":"OBSERVED","sourceId":"SOURCE-PHAROS-AI-COST-2026"},
+  {"id":"CLAIM-BENCHMARK-TABLE","text":"Seven use-case bands and timelines are transcribed from the source table.","v1Status":"VERIFIED","sourceId":"SOURCE-PHAROS-AI-COST-2026"}
+]

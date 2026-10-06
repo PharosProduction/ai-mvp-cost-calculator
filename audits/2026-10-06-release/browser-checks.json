@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-06",
+  "baseUrl": "http://127.0.0.1:4194/",
+  "checks": [
+    {
+      "case": "RAG MVP defaults",
+      "expected": "42000\u201367000 itemized; 34722\u201386207 cross-check",
+      "result": "PASS"
+    },
+    {
+      "case": "24-month horizon",
+      "expected": "54000\u201379000; first-year cross-check unchanged",
+      "result": "PASS"
+    },
+    {
+      "case": "Unknown data",
+      "expected": "warning; arithmetic unchanged",
+      "result": "PASS"
+    },
+    {
+      "case": "Multi-agent enterprise,24 months",
+      "expected": "upper 529000+; cross-check 388889\u2013862069+",
+      "result": "PASS"
+    },
+    {
+      "case": "Known42000 build,24 months",
+      "expected": "71000\u201371000; cross-check58333\u201372414",
+      "result": "PASS"
+    },
+    {
+      "case": "Zero horizon",
+      "expected": "Unavailable; readable error; exports disabled",
+      "result": "PASS"
+    },
+    {
+      "case": "Valid input recovery",
+      "expected": "default results restore, error clears",
+      "result": "PASS"
+    },
+    {
+      "case": "JSON and CSV download",
+      "expected": "saved files, source version2026-10-04, assumptions and flags retained",
+      "result": "PASS"
+    },
+    {
+      "case": "No JavaScript",
+      "before": "form enabled, privacy boundary defective",
+      "after": "all input/select/buttons disabled, 7-row table and explanation readable",
+      "result": "PASS"
+    },
+    {
+      "case": "320px and390px",
+      "expected": "document scrollWidth equals viewport, inner figures/tables scroll",
+      "result": "PASS"
+    },
+    {
+      "case": "Rendered semantics",
+      "expected": "main article/form/output/7-row table and cited source",
+      "result": "PASS"
+    },
+    {
+      "case": "Console warnings/errors",
+      "expected": "none observed on normal loaded calculator",
+      "result": "PASS"
+    },
+    {
+      "case": "Benchmark midpoint",
+      "before": "37500 fabricated midpoint in RAG export",
+      "after": "null in downloaded JSON; no unsupported expected cost",
+      "result": "PASS"
+    }
+  ],
+  "total": 13,
+  "scope": "Local browser QA only; not proof of live publication."
+}

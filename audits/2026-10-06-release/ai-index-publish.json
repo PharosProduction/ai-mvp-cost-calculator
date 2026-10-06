@@ -1,0 +1,111 @@
+{
+  "files": [
+    {
+      "file": "docs/index.html",
+      "findings": [
+        {
+          "id": "AT08",
+          "severity": "flag",
+          "value": 0.62,
+          "threshold": 0.5,
+          "line": null,
+          "excerpt": "15 headings / 24 paragraphs"
+        },
+        {
+          "id": "AT14",
+          "severity": "flag",
+          "value": 3,
+          "threshold": 3,
+          "line": null,
+          "excerpt": "paragraphs starting with 'the'"
+        },
+        {
+          "id": "AT16",
+          "severity": "flag",
+          "value": 0.178,
+          "threshold": 0.25,
+          "line": null,
+          "excerpt": "5 items, CV=0.178"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "2026",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 2026"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "2026",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 2026"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "6",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 6"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "6",
+          "threshold": null,
+          "line": null,
+          "excerpt": "number: 6"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "https://github.com/PharosProduction/ai-mvp-cost-calculator/blob/main/audits/2026-10-06-release/technical-review.md",
+          "threshold": null,
+          "line": null,
+          "excerpt": "url: https://github.com/PharosProduction/ai-mvp-cost-calculator/blob/main/audits/2026-10-06-release/technical-review.md"
+        },
+        {
+          "id": "PR02",
+          "severity": "flag",
+          "value": "https://github.com/PharosProduction/ai-mvp-cost-calculator/issues",
+          "threshold": null,
+          "line": null,
+          "excerpt": "url: https://github.com/PharosProduction/ai-mvp-cost-calculator/issues"
+        }
+      ],
+      "metrics": {
+        "section_closers": 0,
+        "IN01": {
+          "ttr": 0.4383,
+          "lexical_density": 0.7565,
+          "hapax_pct": 0.5963
+        },
+        "IN02": {
+          "digressions": 4
+        },
+        "IN03": {
+          "rhetorical_questions": 0
+        },
+        "IN04": {
+          "cliche_tier2_per_500": 0.0
+        },
+        "IN05": {
+          "contraction_count": 0,
+          "contraction_per_500": 0.0
+        },
+        "IN06": {
+          "passive_count": 3,
+          "passive_per_500": 1.22
+        },
+        "word_count": 1232,
+        "skipped": [],
+        "skip_reasons": {}
+      },
+      "exit": 1
+    }
+  ],
+  "exit": 1
+}

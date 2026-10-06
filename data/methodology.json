@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0.0",
+  "formulaVersion": "1.0.0",
+  "dataset": {"sampleNExact":25,"displayCount":"exactly 25 projects","windowStart":"2023-01-01","windowEnd":"2026-03-31","oneProjectOneCount":true,"anonymized":true},
+  "formulas": [
+    {"id":"FORMULA-ITEMIZED-V1","expression":"build + oneTimeExtras + monthlyRunRate * horizonMonths","sourceIds":["SOURCE-PHAROS-AI-COST-2026"],"claimIds":["CLAIM-BENCHMARK-TABLE"],"sourceVersion":"2026-10-04","note":"All extras are user assumptions."},
+    {"id":"FORMULA-HIDDEN-SHARE-V1","expression":"TCO = build / (1 - hiddenShare)","lowShare":0.28,"highShare":0.42,"base":null,"sourceIds":["SOURCE-PHAROS-AI-COST-2026"],"claimIds":["CLAIM-HIDDEN-28-42"],"sourceVersion":"2026-10-04"}
+  ],
+  "qualitativeUncertaintyChangesNumbers": false,
+  "vendorPricesIncluded": false
+}

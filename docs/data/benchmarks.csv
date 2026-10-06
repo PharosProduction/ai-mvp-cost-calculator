@@ -1,0 +1,22 @@
+use_case,label,lifecycle,cost_low_usd,cost_high_usd,upper_open,timeline_weeks_low,timeline_weeks_high,claim_id,source_id,source_version
+chatbot,Customer support chatbot,mvp,15000,30000,false,6,14,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+chatbot,Customer support chatbot,production,40000,90000,false,6,14,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+chatbot,Customer support chatbot,enterprise,120000,250000,false,6,14,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+rag,Document Q&A RAG system,mvp,25000,50000,false,10,20,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+rag,Document Q&A RAG system,production,60000,150000,false,10,20,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+rag,Document Q&A RAG system,enterprise,180000,350000,false,10,20,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+copilot,AI copilot for internal tools,mvp,40000,80000,false,12,24,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+copilot,AI copilot for internal tools,production,90000,180000,false,12,24,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+copilot,AI copilot for internal tools,enterprise,200000,400000,false,12,24,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+code-assistant,Code generation assistant,mvp,35000,75000,false,12,24,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+code-assistant,Code generation assistant,production,80000,170000,false,12,24,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+code-assistant,Code generation assistant,enterprise,180000,350000,false,12,24,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+multi-agent,Multi-agent orchestration,mvp,60000,120000,false,16,36,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+multi-agent,Multi-agent orchestration,production,150000,300000,false,16,36,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+multi-agent,Multi-agent orchestration,enterprise,280000,500000,true,16,36,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+computer-vision,Computer vision pipeline,mvp,30000,70000,false,10,24,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+computer-vision,Computer vision pipeline,production,80000,180000,false,10,24,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+computer-vision,Computer vision pipeline,enterprise,200000,400000,false,10,24,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+nlp,NLP extraction and classification,mvp,20000,45000,false,8,18,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+nlp,NLP extraction and classification,production,55000,130000,false,8,18,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04
+nlp,NLP extraction and classification,enterprise,150000,300000,false,8,18,CLAIM-BENCHMARK-TABLE,SOURCE-PHAROS-AI-COST-2026,2026-10-04

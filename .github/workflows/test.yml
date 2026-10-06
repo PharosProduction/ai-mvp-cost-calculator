@@ -1,0 +1,17 @@
+name: Test
+on:
+  push:
+  pull_request:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --test
+      - run: node --check docs/assets/calculator.js
+      - run: node --check docs/assets/release-gate.js
+      - run: node --check docs/assets/app.js
+      - run: npm run check:sources

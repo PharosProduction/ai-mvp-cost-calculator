@@ -1,0 +1,17 @@
+name: Manual Pages readiness (no deploy)
+on:
+  workflow_dispatch:
+jobs:
+  readiness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --test
+      - run: npm run check:sources
+      - name: Evaluate release gate
+        run: node --input-type=module -e "import review from './data/review.json' with {type:'json'}; import claims from './data/claims.json' with {type:'json'}; import sources from './data/sources.json' with {type:'json'}; import methodology from './data/methodology.json' with {type:'json'}; import benchmarks from './data/benchmarks.json' with {type:'json'}; import {evaluateReleaseGate} from './docs/assets/release-gate.js'; const gate=evaluateReleaseGate({review,claims,sources,methodology,benchmarks}); console.log(gate); if(!gate.publishable) process.exit(1)"
+      - name: Summarize without deployment
+        run: echo 'Readiness checks only. This workflow has no Pages permissions and no deployment step.' >> "$GITHUB_STEP_SUMMARY"

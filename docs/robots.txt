@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pharosproduction.github.io/ai-mvp-cost-calculator/sitemap.xml

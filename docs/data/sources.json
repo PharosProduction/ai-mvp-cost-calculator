@@ -1,0 +1,29 @@
+[
+  {
+    "id": "SOURCE-PHAROS-AI-COST-2026",
+    "title": "State of AI Development Costs 2026",
+    "url": "https://pharosproduction.com/insights/engineering/state-of-ai-development-costs-2026/",
+    "publisher": "Pharos Production",
+    "published": "2026-04-13",
+    "modified": "2026-10-04",
+    "accessed": "2026-10-06",
+    "type": "first-party delivery study",
+    "dateBasis": "Visible article header; historical CMS dates retained in the August audit"
+  },
+  {
+    "id": "SOURCE-GOOGLE-HELPFUL-CONTENT",
+    "title": "Creating helpful, reliable, people-first content",
+    "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "publisher": "Google Search Central",
+    "accessed": "2026-10-06",
+    "type": "official guidance"
+  },
+  {
+    "id": "SOURCE-GOOGLE-STRUCTURED-DATA",
+    "title": "Structured data general guidelines",
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+    "publisher": "Google Search Central",
+    "accessed": "2026-10-06",
+    "type": "official guidance"
+  }
+]

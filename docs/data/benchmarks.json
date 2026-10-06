@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceId": "SOURCE-PHAROS-AI-COST-2026",
+  "sourceVersion": "2026-10-04",
+  "claimId": "CLAIM-BENCHMARK-TABLE",
+  "currency": "USD",
+  "lifecycles": ["mvp", "production", "enterprise"],
+  "rows": [
+    {"useCase":"chatbot","label":"Customer support chatbot","timelineWeeksLow":6,"timelineWeeksHigh":14,"mvp":[15000,30000],"production":[40000,90000],"enterprise":[120000,250000]},
+    {"useCase":"rag","label":"Document Q&A RAG system","timelineWeeksLow":10,"timelineWeeksHigh":20,"mvp":[25000,50000],"production":[60000,150000],"enterprise":[180000,350000]},
+    {"useCase":"copilot","label":"AI copilot for internal tools","timelineWeeksLow":12,"timelineWeeksHigh":24,"mvp":[40000,80000],"production":[90000,180000],"enterprise":[200000,400000]},
+    {"useCase":"code-assistant","label":"Code generation assistant","timelineWeeksLow":12,"timelineWeeksHigh":24,"mvp":[35000,75000],"production":[80000,170000],"enterprise":[180000,350000]},
+    {"useCase":"multi-agent","label":"Multi-agent orchestration","timelineWeeksLow":16,"timelineWeeksHigh":36,"mvp":[60000,120000],"production":[150000,300000],"enterprise":[280000,500000],"enterpriseUpperOpen":true},
+    {"useCase":"computer-vision","label":"Computer vision pipeline","timelineWeeksLow":10,"timelineWeeksHigh":24,"mvp":[30000,70000],"production":[80000,180000],"enterprise":[200000,400000]},
+    {"useCase":"nlp","label":"NLP extraction and classification","timelineWeeksLow":8,"timelineWeeksHigh":18,"mvp":[20000,45000],"production":[55000,130000],"enterprise":[150000,300000]}
+  ]
+}
